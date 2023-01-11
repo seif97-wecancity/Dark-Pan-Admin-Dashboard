@@ -1,0 +1,10 @@
+﻿@model IEnumerable<CRUD.Models.School>
+@{
+    ViewData["Title"] = "GetAll";
+}
+
+@foreach (var item in Model)
+{
+    <p style="color:white">@item.Name</p>
+}
+
